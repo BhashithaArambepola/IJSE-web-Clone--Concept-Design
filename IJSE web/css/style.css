@@ -6,6 +6,7 @@
     clear: both;
   }
 
+  @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Patrick+Hand&family=Poppins:wght@300;400;500;600;700&family=Ramaraja&family=Roboto:wght@100;300;400;500;700&display=swap');
   /* **************************header************************************ */
 header{
     position: fixed;
@@ -41,7 +42,7 @@ header{
 #menu a h3{
     /* padding-right: 10%; */
     /* background-color: burlywood; */
-    color: darkolivegreen;
+    color: rgb(99, 99, 99);
     
     text-decoration: none;
     text-align: center;
@@ -50,7 +51,9 @@ header{
     z-index: 1;
     
 }
-
+#menu a h3:hover{
+    color: rgb(218, 25, 50);
+}
 
 
 
@@ -80,7 +83,7 @@ header{
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #f1f1f1}
+  .dropdown-content a:hover {background-color: #c4202094}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -179,19 +182,20 @@ header{
     color: rgb(33, 34, 34);
     font-weight: 1200;
     font-size: 36px;
+    font-family: 'Bree Serif', serif; 
 }
-#theHomeOfSE{
-    text-align: center;
+#theHomeOfSE{        
     margin-top: 2%;
-    color: rgb(70, 70, 70);
+    color: rgb(75, 74, 74);
     font-weight: 1200;
     font-size: 18px;
+    text-align: center;
 }
 
 #para{
     text-align: center;
     margin-top: 2%;
-    color: rgb(81, 83, 83);
+    color: rgb(33, 34, 34);
     font-weight: 1200;
     font-size: 16px;
 }
@@ -215,7 +219,7 @@ header{
     top: 190%;
     background-color: rgb(179, 156, 92);
     width: 100%;
-    height: 150%;
+    height: 130%;
     position: absolute;
     background-image: url("https://www.ijse.lk/themes/sura-red/images/bg.jpg");
 }
@@ -226,73 +230,135 @@ header{
     color: rgb(255, 255, 255);
     font-weight: 1200;
     font-size: 36px;
+    text-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 1);
   
 }
 
 
 #news1{
-    background-color: aqua;
-    width: 20%;
-    height: 35%;
+    /* background-color: aqua; */
+    width: 25%;
+    /* height: 35%; */
     margin-top: 5%;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 5%;
+
+}
+
+#news1:hover{
+border: #f9f9f9;
+border-width: 5px;
+border-style: solid;
+cursor: pointer;
+border-radius: 10px;
+box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
 
 }
 #news2{
-    background-color: rgb(79, 180, 54);
-    width: 20%;
-    height: 35%;
+    /* background-color: rgb(79, 180, 54); */
+    width: 25%;
+    /* height: 35%; */
     margin-top: 5%;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 37.5%;
 
 }
+#news2:hover{
+    border: #f9f9f9;
+    border-width: 5px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
+    
+    }
 #news3{
-    background-color: rgb(180, 54, 153);
-    width: 20%;
-    height: 35%;
+    /* background-color: rgb(180, 54, 153); */
+    width: 25%;
+    /* height: 35%; */
     margin-top: 5%;
     position: absolute;
     margin-left: 70%;
 
 }
+#news3:hover{
+    border: #f9f9f9;
+    border-width: 5px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
+    
+    }
 
 #news4{
-    background-color: aqua;
-    width: 20%;
-    height: 35%;
-    margin-top: 35%;
+    /* background-color: aqua; */
+    width: 25%;
+    /* height: 35%; */
+    margin-top: 30%;
     position: absolute;
-    margin-left: 10%;
+    margin-left: 5%;
 
 
 }
+#news4:hover{
+    border: #f9f9f9;
+    border-width: 5px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
+    
+    }
 #news5{
-    background-color: rgb(79, 180, 54);
-    width: 20%;
-    height: 35%;
-    margin-top: 35%;
+    /* background-color: rgb(79, 180, 54); */
+    width: 25%;
+    /* height: 35%; */
+    margin-top: 30%;
     position: absolute;
-    margin-left: 40%;
+    margin-left: 37.5%;
 
 }
+#news5:hover{
+    border: #f9f9f9;
+    border-width: 5px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
+    
+    }
 #news6{
-    background-color: rgb(180, 54, 153);
-    width: 20%;
-    height: 35%;
-    margin-top: 35%;
+    /* background-color: rgb(180, 54, 153); */
+    width: 25%;
+    /* height: 35%; */
+    margin-top: 30%;
     position: absolute;
     margin-left: 70%;
+    
 
 }
+#news6:hover{
+    border: #f9f9f9;
+    border-width: 5px;
+    border-style: solid;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
+    }
 #button{
-    top: 85%;
+    top: 80%;
     width: 100%;
-    height: 3%;
+    height: 4%;
     /* background-color: aquamarine; */
     position: relative;
+
 }
+#moreNews:hover{
+   background-color: rgba(192, 110, 110, 0.343);
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+} 
 
 #moreNews {
     margin: 0;
@@ -304,6 +370,7 @@ header{
     height: 100%;
     width: 10%;
     border-radius: 5px;
+    color: rgb(189, 21, 21);
   
 }
 
@@ -322,7 +389,7 @@ header{
     top: 5%;
 
     /* background-color: rgb(18, 53, 207); */
-    width: 25%;
+    width: 20%;
     height: 75%;
     position: relative;
     float: left; 
@@ -355,7 +422,7 @@ header{
     top: 5%;
   
     /* background-color: rgb(207, 18, 18); */
-    width: 25%;
+    width: 20%;
     height: 75%;
     position: relative;
     float: left; 
@@ -366,7 +433,7 @@ header{
     top: 5%;
    
     /* background-color: rgb(18, 207, 176); */
-    width: 25%;
+    width: 20%;
     height: 75%;
     position: relative;
     float: left; 
@@ -376,21 +443,21 @@ header{
 #hotLine{
     text-align: center;
     margin-top: 5%;
-    color: rgb(218, 25, 50);
+    color: rgb(255, 0, 0);
     font-weight: 1200;
     font-size: 24px;
 }
 #HLNum{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 3%;
     color: rgb(181, 185, 185);
     font-weight: 1200;
-    font-size: 30px;
+    font-size: 28px;
 }
 #email{
     text-align: center;
     margin-top: 10%;
-    color: rgb(218, 25, 50);
+    color: rgb(255, 0, 0);
     font-weight: 1200;
     font-size: 24px;
 }
@@ -398,7 +465,7 @@ header{
     top: 5%;
 
     /* background-color: rgb(207, 125, 18); */
-    width: 25%;
+    width: 40%;
     height: 75%;
     position: relative;
     float: left; 
@@ -420,7 +487,7 @@ header{
     text-align: right;
     margin-top: 2%;
     margin-right: 5%;
-    color: azure;
+    color: rgb(99, 99, 99);
     font-weight: 1200;
     font-size: 12px;
     float:right;
@@ -432,7 +499,7 @@ header{
     text-align: right;
     margin-top: 12%;
     margin-right: 5%;
-    color: azure;
+    color: rgb(99, 99, 99);
     font-weight: 1200;
     font-size: 12px;
     float:right;
@@ -442,18 +509,22 @@ header{
 #icon{
     text-align: center;
     margin-top: 10%;
-    color: rgb(218, 25, 50);
+    color: rgb(255, 0, 0);
     font-weight: 1200;
     font-size: 36px;
     /* margin-left: 10%; */
-    padding: 10%;
+    padding: 8%;
 }
 
 #iconPack{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 10%;
     color: rgb(218, 25, 50);
     font-weight: 1200;
     font-size: 24px;
+    text-align: center;
     
+}
+#ev1{
+    width: 100%;
 }
