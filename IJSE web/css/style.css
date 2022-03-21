@@ -11,7 +11,7 @@ header{
     position: fixed;
     width: 100%;
     height: 10%;
-    /* background-color: bisque; */
+    background-color: rgb(255, 255, 255);
     z-index: 1;
 }
 #logo{
@@ -56,22 +56,12 @@ header{
 
 /* --------------------------------------------- */
 
-.dropbtn {
-  
-    color: rgb(8, 8, 8);
-   /* margin-right: 50%; */
-    /* font-size: 14px; */
-    /* border: none;
-    cursor: pointer;
-    text-decoration: none; */
-    /* background-color: aquamarine; */
 
-  }
   
   .dropdown {
     position: a;
     display: inline-block;
-    /* color: #000; */
+   
   }
   
   .dropdown-content {
@@ -106,20 +96,51 @@ header{
 }
   /* **************************home image************************************ */
 #homeImage{
-    /* width: 100%;
-    height: 100px; */
+  
     top: 10%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     width: 100%;
     height: 100%;
     position: absolute;
+    background-image: url(https://www.ijse.lk/themes/sura-red/images/hero-slider/slide-1.jpg);
 }
-#blueWall{
+/* #blueWall{
     top: 0%;
     background-color: blueviolet;
     width: 100%;
     height: 90%;
     position: absolute;
+} */
+
+
+
+#welcome{
+    /* background-color: aqua; */
+    text-align: center;
+    margin-top: 15%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 25px;
+
+}
+#institute{
+    text-align: center;
+    margin-top: 2%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 50px;
+}
+#slogan{
+    text-align: center;
+    margin-top: 4%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 24px;
+}
+
+#No1{
+    color: rgb(219, 27, 1); 
+    font-weight: bolder;
 }
   /* **************************intro************************************ */
 #intro-img{
@@ -129,25 +150,310 @@ header{
     height: 90%;
     position: absolute;
 }
+#introduction{
+    top: 5%;
+    left: 10%;
+    /* background-color: rgb(207, 18, 18); */
+    width: 52%;
+    height: 75%;
+    position: absolute;
+    line-height: 125%;
+   
+}
+
+#girl{
+    top: 5%;
+    /* left: 5%; */
+    /* background-color: rgb(207, 18, 18); */
+    /* width: 45%; */
+    height: 75%;
+    position: relative;
+    float: right; 
+    margin-right: 10%;
+    border-radius: 15px;
+    
+}
+#WelcometoIJSE{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(33, 34, 34);
+    font-weight: 1200;
+    font-size: 36px;
+}
+#theHomeOfSE{
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(70, 70, 70);
+    font-weight: 1200;
+    font-size: 18px;
+}
+
+#para{
+    text-align: center;
+    margin-top: 2%;
+    color: rgb(81, 83, 83);
+    font-weight: 1200;
+    font-size: 16px;
+}
+
+#fastest{
+    text-align: center;
+    margin-top: 0%;
+    color: rgb(70, 70, 70);
+    font-weight: 1200;
+    font-size: 28px;
+    position: absolute;
+    top: 85%;
+    /* background-color: aquamarine; */
+    width: 100%;
+    
+}
+
+
 /* **************************news-splash************************************ */
 #news-splash{
     top: 190%;
     background-color: rgb(179, 156, 92);
     width: 100%;
-    height: 120%;
+    height: 150%;
     position: absolute;
+    background-image: url("https://www.ijse.lk/themes/sura-red/images/bg.jpg");
 }
-#redWall{
-    top: 0%;
-    background-color: blueviolet;
+
+#news{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(255, 255, 255);
+    font-weight: 1200;
+    font-size: 36px;
+  
+}
+
+
+#news1{
+    background-color: aqua;
+    width: 20%;
+    height: 35%;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 10%;
+
+}
+#news2{
+    background-color: rgb(79, 180, 54);
+    width: 20%;
+    height: 35%;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 40%;
+
+}
+#news3{
+    background-color: rgb(180, 54, 153);
+    width: 20%;
+    height: 35%;
+    margin-top: 5%;
+    position: absolute;
+    margin-left: 70%;
+
+}
+
+#news4{
+    background-color: aqua;
+    width: 20%;
+    height: 35%;
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 10%;
+
+
+}
+#news5{
+    background-color: rgb(79, 180, 54);
+    width: 20%;
+    height: 35%;
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 40%;
+
+}
+#news6{
+    background-color: rgb(180, 54, 153);
+    width: 20%;
+    height: 35%;
+    margin-top: 35%;
+    position: absolute;
+    margin-left: 70%;
+
+}
+#button{
+    top: 85%;
     width: 100%;
-    height: 120%;
-    position: absolute;
+    height: 3%;
+    /* background-color: aquamarine; */
+    position: relative;
 }
+
+#moreNews {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    height: 100%;
+    width: 10%;
+    border-radius: 5px;
+  
+}
+
+
+
+
+/* **************************Contacts************************************ */
 #contacts{
-    top: 310%;
-    background-color: rgb(179, 117, 92);
+    top: 100%;
+    background-color: rgb(0, 0, 0);
     width: 100%;
-    height: 50%;
+    height: 30%;
     position: absolute;
+}
+#panadura{
+    top: 5%;
+
+    /* background-color: rgb(18, 53, 207); */
+    width: 25%;
+    height: 75%;
+    position: relative;
+    float: left; 
+    
+ 
+}
+#branchName{
+    text-align: center;
+    margin-top: 5%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 16px;
+}
+#phone{
+    text-align: center;
+    margin-top: 5%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 14px;
+}
+#num{
+    text-align: center;
+    margin-top: 5%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 12px;
+}
+
+#galle{
+    top: 5%;
+  
+    /* background-color: rgb(207, 18, 18); */
+    width: 25%;
+    height: 75%;
+    position: relative;
+    float: left; 
+  
+
+}
+#socialMedia{
+    top: 5%;
+   
+    /* background-color: rgb(18, 207, 176); */
+    width: 25%;
+    height: 75%;
+    position: relative;
+    float: left; 
+    
+
+}
+#hotLine{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(218, 25, 50);
+    font-weight: 1200;
+    font-size: 24px;
+}
+#HLNum{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(181, 185, 185);
+    font-weight: 1200;
+    font-size: 30px;
+}
+#email{
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(218, 25, 50);
+    font-weight: 1200;
+    font-size: 24px;
+}
+#details{
+    top: 5%;
+
+    /* background-color: rgb(207, 125, 18); */
+    width: 25%;
+    height: 75%;
+    position: relative;
+    float: left; 
+
+}
+#ijseLogo{
+    position: relative;
+    /* width: 100%; */
+    height: 20%;
+    /* background-color: bisque; */
+    padding-left: 2%;
+    padding-top: 1%;
+    z-index: 1;
+    float: right; 
+    margin-right: 5%;
+}
+#copyright{
+    position: relative;
+    text-align: right;
+    margin-top: 2%;
+    margin-right: 5%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 12px;
+    float:right;
+    width: 
+    900%;
+}
+#develop{
+    position: relative;
+    text-align: right;
+    margin-top: 12%;
+    margin-right: 5%;
+    color: azure;
+    font-weight: 1200;
+    font-size: 12px;
+    float:right;
+    width: 
+    900%;
+}
+#icon{
+    text-align: center;
+    margin-top: 10%;
+    color: rgb(218, 25, 50);
+    font-weight: 1200;
+    font-size: 36px;
+    /* margin-left: 10%; */
+    padding: 10%;
+}
+
+#iconPack{
+    text-align: center;
+    margin-top: 5%;
+    color: rgb(218, 25, 50);
+    font-weight: 1200;
+    font-size: 24px;
+    
 }
