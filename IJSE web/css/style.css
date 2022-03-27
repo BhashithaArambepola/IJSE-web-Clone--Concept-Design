@@ -28,7 +28,7 @@ header{
 #menu{
     /* float: right; */
     width: 50%;
-    padding-top: 2.5%;
+    margin-top: 2.7%;
     position: fixed;
     left: 30%;
     display: inline-block;
@@ -38,6 +38,7 @@ header{
 
 
 }
+
 
 #menu a h3{
     /* padding-right: 10%; */
@@ -53,6 +54,8 @@ header{
 }
 #menu a h3:hover{
     color: rgb(218, 25, 50);
+    /* text-decoration: underline; */
+
 }
 
 
@@ -83,7 +86,8 @@ header{
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #c4202094}
+  .dropdown-content a:hover {background-color: #c4202094;
+}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -91,12 +95,16 @@ header{
   
   .dropdown:hover .dropbtn {
     color: rgb(231, 7, 7);
+    
   }
 /* --------------------------------------------- */
 
 #aboutBtn{
     padding-left: 10%;
 }
+
+
+
   /* **************************home image************************************ */
 #homeImage{
   
@@ -105,7 +113,9 @@ header{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-image: url(https://www.ijse.lk/themes/sura-red/images/hero-slider/slide-1.jpg);
+    background-image: url(https://media.istockphoto.com/photos/dark-blue-grunge-background-picture-id157740037?k=20&m=157740037&s=612x612&w=0&h=1-MHpVoeCvmVlxnJfxFLC-Wgauew8-49yw24yDmqrAo=);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* #blueWall{
     top: 0%;
@@ -114,8 +124,6 @@ header{
     height: 90%;
     position: absolute;
 } */
-
-
 
 #welcome{
     /* background-color: aqua; */
@@ -144,6 +152,7 @@ header{
 #No1{
     color: rgb(219, 27, 1); 
     font-weight: bolder;
+    font-size: 36px;
 }
   /* **************************intro************************************ */
 #intro-img{
@@ -155,7 +164,7 @@ header{
 }
 #introduction{
     top: 5%;
-    left: 10%;
+    left: 7%;
     /* background-color: rgb(207, 18, 18); */
     width: 52%;
     height: 75%;
@@ -163,7 +172,16 @@ header{
     line-height: 125%;
    
 }
-
+.v1{
+    border-left: 4px solid rgba(231, 16, 16, 0.617);
+    height: 60%;
+    position: absolute;
+    left: 62%;
+    /* margin-left: -3px; */
+    top: 5;
+    margin-top: 6%;
+    border-radius: 50px;
+}
 #girl{
     top: 5%;
     /* left: 5%; */
@@ -172,7 +190,7 @@ header{
     height: 75%;
     position: relative;
     float: right; 
-    margin-right: 10%;
+    margin-right: 7%;
     border-radius: 15px;
     
 }
@@ -221,7 +239,7 @@ header{
     width: 100%;
     height: 130%;
     position: absolute;
-    background-image: url("https://www.ijse.lk/themes/sura-red/images/bg.jpg");
+    background-image: url("https://ijse.lk/images/home/news-bg.jpg");
 }
 
 #news{
@@ -358,9 +376,11 @@ box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
    background-color: rgba(192, 110, 110, 0.343);
    color: rgb(255, 255, 255);
    cursor: pointer;
+   box-shadow: 0px 8px 16px 0px rgba(185, 172, 172, 0.2);
 } 
 
 #moreNews {
+    font-weight: bold;
     margin: 0;
     position: absolute;
     top: 50%;
@@ -440,6 +460,8 @@ box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
     
 
 }
+
+
 #hotLine{
     text-align: center;
     margin-top: 5%;
@@ -452,7 +474,7 @@ box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
     margin-top: 3%;
     color: rgb(181, 185, 185);
     font-weight: 1200;
-    font-size: 28px;
+    font-size: 18px;
 }
 #email{
     text-align: center;
@@ -525,6 +547,7 @@ box-shadow: 0px 8px 16px 0px rgba(238, 230, 230, 0.6);
     text-align: center;
     
 }
+
 #ev1{
     width: 100%;
 }
